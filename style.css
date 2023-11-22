@@ -1,0 +1,483 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#menu {
+    display: none;
+}
+
+#logo1 {
+    width: 300px;
+}
+
+nav a {
+    color: rgb(178, 171, 171);
+    margin-right: 40px;
+}
+
+nav a:hover {
+    color: rgb(0, 179, 155);
+}
+
+nav #abt {
+    color: rgb(0, 179, 155);
+}
+
+main {
+    width: 100vw;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#fh1 {
+    text-align: center;
+    color: rgb(0, 179, 155);
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 1;
+    font: lighter
+}
+
+.p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.p p {
+    text-align: left;
+    color: rgb(178, 171, 171);
+}
+
+
+/* styling of the entire container */
+
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+/* the styling of the first con1 */
+
+.con1 {
+    background-color: rgb(0, 204, 177);
+    height: 255px;
+    padding: 50px;
+    margin-right: 20px;
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.con1 i {
+    color: white;
+}
+
+.con1 h2 {
+    color: white;
+    font-size: xx-large;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.con1 p {
+    color: white;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.con1 .select {
+    background-color: rgb(0, 204, 177);
+    box-sizing: border-box;
+    border: none;
+    text-decoration: underline;
+}
+
+
+/* styling for the second con2 */
+
+main #container .con2 {
+    background-color: rgb(61, 131, 223);
+    height: 255px;
+    padding: 50px;
+    margin-right: 20px;
+    width: 12vw;
+    border-radius: 10px;
+}
+
+main #container .con2 i {
+    color: white;
+}
+
+main #container .con2 h2 {
+    color: white;
+    font-size: xx-large;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+main #container .con2 p {
+    color: white;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+main #container .con2 .select {
+    background-color: rgb(61, 131, 223);
+    box-sizing: border-box;
+    border: none;
+    text-decoration: underline;
+}
+
+
+/* styling of the third con3 */
+
+main #container .con3 {
+    background-color: rgb(27, 39, 52);
+    height: 255px;
+    padding: 50px;
+    margin-right: 20px;
+    width: 15vw;
+    border-radius: 10px;
+}
+
+main #container .con3 i {
+    color: white;
+}
+
+main #container .con3 h2 {
+    color: white;
+    font-size: xx-large;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+main #container .con3 p {
+    color: white;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+main #container .con3 .select {
+    background-color: rgb(27, 39, 52);
+    box-sizing: border-box;
+    border: none;
+    text-decoration: underline;
+}
+
+
+/* End of the container */
+
+#logos {
+    display: flex;
+    align-items: center;
+}
+
+#logos .left {
+    margin-left: 300px;
+    margin-bottom: 100px;
+}
+
+#logos .left p {
+    color: rgb(0, 204, 177);
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+#logos .signlogos {
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+#logos .signlogos img {
+    margin: 20px;
+}
+
+section {
+    background-color: rgb(208, 250, 244);
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+
+/*--styling the section smallicon--*/
+
+section .smallcon {
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+section .biglogo {
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+section .biglogo h1 {
+    color: rgb(0, 185, 191);
+    text-align: center;
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
+section .biglogo p {
+    text-align: center;
+    color: rgb(137, 116, 116);
+    font-size: large;
+}
+
+
+/*--styling the small1--*/
+
+.rightcon {
+    margin-top: 20px;
+}
+
+.smallcon .small1 {
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 3px;
+    width: 12vw;
+    height: 40%;
+    /* margin-right: 20px;
+    margin-top: 30px; */
+}
+
+.smallcon .small1 i {
+    color: rgb(0, 204, 177);
+}
+
+.smallcon .small1 h1 {
+    color: rgb(0, 204, 177);
+}
+
+.smallcon .small1 p {
+    color: rgb(137, 116, 116);
+    font-size: small;
+}
+
+
+/*-- small2--*/
+
+.smallcon .small2 {
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 3px;
+    width: 12vw;
+    height: 40%;
+    /* margin-right: 20px;
+    margin-top: 10px; */
+}
+
+.smallcon .small2 i {
+    color: rgb(0, 204, 177);
+}
+
+.smallcon .small2 h1 {
+    color: rgb(0, 204, 177);
+}
+
+section .smallcon .small2 p {
+    color: rgb(137, 116, 116);
+}
+
+
+/*--small3--*/
+
+.smallcon .small3 {
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 3px;
+    width: 12vw;
+    height: 40%;
+    /* margin-right: 20px;
+    margin-top: 30px; */
+}
+
+.smallcon .small3 i {
+    color: rgb(0, 204, 177);
+}
+
+.smallcon .small3 h1 {
+    color: rgb(0, 204, 177);
+}
+
+.smallcon .small3 p {
+    color: rgb(137, 116, 116);
+}
+
+
+/*--small4--*/
+
+.smallcon .small4 {
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 3px;
+    width: 12vw;
+    height: 40%;
+    /* margin-right: 20px;
+    margin-top: 10px; */
+}
+
+.smallcon .small4 i {
+    color: rgb(0, 204, 177);
+}
+
+.smallcon .small4 h1 {
+    color: rgb(0, 204, 177);
+}
+
+.smallcon .small4 p {
+    color: rgb(137, 116, 116);
+}
+
+.after h1 {
+    text-align: center;
+    color: rgb(0, 204, 177);
+    font-weight: lighter;
+}
+
+.after p {
+    text-align: center;
+    color: rgb(137, 116, 116);
+}
+
+
+/*--LARGE PICS OF COUNTRY--*/
+
+#largepic {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+
+#largepic .pic .pic_p {
+    display: flex;
+}
+
+#largepic .pic .pic_p p {
+    color: rgb(116, 116, 116);
+}
+
+#largepic .pic .pic_p .pp {
+    color: white;
+    border: 1px solid;
+    border-radius: 6px;
+    background-color: rgb(61, 131, 223);
+    padding: 10px;
+    margin-left: 115px;
+}
+
+#last {
+    color: rgb(116, 116, 116);
+    text-align: center;
+    margin-top: 10px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+#last+h6 {
+    color: white;
+    background-color: rgb(61, 131, 223);
+    text-align: center;
+    margin: 0px 43%;
+    padding: 12px;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+
+#foot {
+    color: rgb(116, 116, 116);
+    text-align: center;
+}
+
+#foot span a {
+    color: rgb(61, 131, 223);
+    text-decoration: none;
+}
+
+#foot span a:hover {
+    color: rgb(0, 0, 24);
+    text-decoration: underline;
+}
+
+#foot2 {
+    text-align: center;
+    color: rgb(116, 116, 116);
+}
+
+#foot2+p {
+    text-align: center;
+    color: rgb(116, 116, 116);
+}
+
+@media (max-width: 576px) {
+    nav {
+        display: none;
+    }
+    #menu {
+        display: inline;
+        width: 20px;
+    }
+    #logo1 {
+        width: 200px;
+    }
+    .p {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .p p {
+        text-align: center;
+        font-size: smaller;
+    }
+    #container {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .con1 {
+        background-color: rgb(0, 204, 177);
+        width: 50%;
+        border-radius: 10px;
+        flex-wrap: wrap;
+    }
+    .inner {
+        width: 80%;
+        margin: auto;
+    }
+    .inner h2 {
+        font-size: large;
+    }
+    .inner p {
+        font-size: medium;
+    }
+}
